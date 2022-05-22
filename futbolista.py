@@ -34,4 +34,4 @@ class Futbolista(Persona, Deportista):
 
 
     def __str__(self) -> str:
-        return "Mi nombre es {} soy profesional en el deporte {} Tengo {} de edad y llevo {} años en el deporte".format(self._nombre, self._deporte, self._edad, self._añosPracticando)
+        return "Mi nombre es {} soy profesional en el deporte {} Tengo {} años de edad y llevo {} años en el deporte".format(self._nombre, self._deporte, self._edad, self._añosPracticando)
